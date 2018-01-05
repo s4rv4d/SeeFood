@@ -12,6 +12,7 @@
 		40D8D7D21FFF8CE6001D1ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D8D7D01FFF8CE6001D1ECC /* Main.storyboard */; };
 		40D8D7D41FFF8CE6001D1ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D8D7D31FFF8CE6001D1ECC /* Assets.xcassets */; };
 		40D8D7D71FFF8CE6001D1ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D8D7D51FFF8CE6001D1ECC /* LaunchScreen.storyboard */; };
+		40D8D7DF1FFF8ECB001D1ECC /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 40D8D7DE1FFF8ECB001D1ECC /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		40D8D7D31FFF8CE6001D1ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40D8D7D61FFF8CE6001D1ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40D8D7D81FFF8CE6001D1ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D8D7DE1FFF8ECB001D1ECC /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				40D8D7D01FFF8CE6001D1ECC /* Main.storyboard */,
 				40D8D7D31FFF8CE6001D1ECC /* Assets.xcassets */,
 				40D8D7D51FFF8CE6001D1ECC /* LaunchScreen.storyboard */,
+				40D8D7DE1FFF8ECB001D1ECC /* Inceptionv3.mlmodel */,
 				40D8D7D81FFF8CE6001D1ECC /* Info.plist */,
 			);
 			path = SeeFood;
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D8D7CF1FFF8CE6001D1ECC /* ViewController.swift in Sources */,
+				40D8D7DF1FFF8ECB001D1ECC /* Inceptionv3.mlmodel in Sources */,
 				40D8D7CD1FFF8CE6001D1ECC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4FDL334LZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sarvad-Shetty.SeeFood";
@@ -290,7 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4FDL334LZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sarvad-Shetty.SeeFood";
